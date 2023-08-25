@@ -198,7 +198,7 @@ color: #404bbf;
     text-align: center;
     margin-top: 32px;
     padding-bottom: 8px;
-    
+    border-radius: 0px 0px 4px 4px;
 }
 .team-img {
     border-radius: 0px 0px 4px 4px;
@@ -280,6 +280,28 @@ color: #404bbf;
     max-width: 264px;
 
 }
-.footer > .logo > .logo-studio {
-    color: #f4f4fd;
+.link {
+    text-decoration: none;
+}
+.logo-foot {
+    olor: #4d5ae5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.logo-studio-foot {
+    color: #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
