@@ -226,8 +226,17 @@ color: #404bbf;
     margin-top: 120px;
     margin-bottom: 72px;
 }
+.portfolio-list {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
+    margin-bottom: 8px;
+}
 .portfolio {
     display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 
 }
 .section-four-main {
