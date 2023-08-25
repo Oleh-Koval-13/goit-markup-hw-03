@@ -222,6 +222,10 @@ color: #404bbf;
     background-color: #ffffff;
     margin-bottom: 32px;
 }
+.section-four-fon {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .section-four {
     font-size: 36px;
     font-weight: 700;
@@ -239,6 +243,7 @@ color: #404bbf;
     border: 1px solid #e7e9fc; 
     border-top: none;
     margin-bottom: 8px;
+    width: calc((100% - 48px) / 3);
 }
 .portfolio {
     display: flex;
@@ -273,6 +278,7 @@ color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+
 }
 .footer > .logo > .logo-studio {
     color: #f4f4fd;
