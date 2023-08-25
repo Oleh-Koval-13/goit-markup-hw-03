@@ -3,6 +3,38 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul, ol{
+    padding-left: 0;
+    list-style-type: none;
+    
+}
+img {
+    display: block;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1158px;
+    padding: 0 15px 0 15px;
+    
+}
+.header-content {
+    border-bottom: 1px solid #E7E9FC;
+}
+.container-head {
+    display: flex;
+    gap: 40px;
+}
+.nav-size {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+   
+}
 .logo {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
@@ -11,11 +43,16 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 .logo-studio {
    color: #2e2f42
 }
-
+.navigation-list {
+    display: inline-flex;
+    align-items: center;
+    gap: 40px;
+}
 .navigation {
     font-size: 16px;
     font-weight: 500;
@@ -28,7 +65,22 @@ body {
 color: #404bbf;
 }
 .address-style {
-    font-style: normal;
+   font-style: normal;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   font-weight: 400;
+   font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 40px;
+}
+.address {
+    display: flex;
+    gap: 40px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-left: 0;
+    
 }
 .navigation-address {
     font-size: 16px;
@@ -37,6 +89,7 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
+    text-decoration: none;
 
 }
 .navigation-address:hover,
@@ -46,6 +99,8 @@ color: #404bbf;
 
 .hero-image {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .main-text {
     color: #ffffff;
@@ -54,6 +109,9 @@ color: #404bbf;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    margin: 0 auto;
+    max-width: 496px;
+    margin-bottom: 48px;
 }
 .button {
     font-size: 16px;
@@ -63,10 +121,26 @@ color: #404bbf;
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
+    min-width: 169px;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 16px 32px;
+    border: none;
+
+
 }
 .button:hover,
 .button:focus {
     background-color: #404BBF
+}
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.list {
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
 }
 .section-two {
     font-size: 20px;
@@ -74,6 +148,8 @@ color: #404bbf;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+
 
 }
 .section-two-text {
@@ -85,6 +161,12 @@ color: #404bbf;
 }
 .section-three-fon{
     background-color: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 .section-three-main {
     font-size: 36px;
@@ -95,6 +177,7 @@ color: #404bbf;
     background-color: #f4f4fd;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .section-three {
     font-size: 20px;
@@ -103,6 +186,19 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #2e2f42;
     background-color: #ffffff;
+    text-align: center;
+    margin-top: 32px;
+    padding-bottom: 8px;
+    
+}
+.section-three-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 .section-three-text {
     font-size: 16px;
@@ -111,6 +207,23 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #434455;
     background-color: #ffffff;
+    margin-bottom: 32px;
+}
+.section-four {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    background-color: #f4f4fd;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 120px;
+    margin-bottom: 72px;
+}
+.portfolio {
+    display: flex;
+
 }
 .section-four-main {
     color: #2e2f42;
@@ -127,6 +240,7 @@ color: #404bbf;
     color: #434455;}
 .footer {
         background-color: #2e2f42;
+        margin-top: 120px;
     }
 .footer-text {
     color: #f4f4fd;
